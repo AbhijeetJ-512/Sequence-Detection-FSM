@@ -22,6 +22,17 @@ The sequence detector is designed to detect **"10110"** (5-bit sequence).
 
 ---
 
+## 🔄 FSM State Flow Diagram
+The following **state flow diagram** illustrates the **Mealy FSM transitions** for detecting the sequence **"10110"**:
+
+![FSM State Flow](Mealy_10110_state_flow.png)
+
+- This diagram shows **state transitions based on input X**.
+- Each state represents a part of the detected sequence.
+- **Overlapping sequences** are correctly handled.
+
+---
+
 ## 🛠 Schematic 
 The following schematic was **automatically generated using Vivado** and represents the **circuit structure of the Mealy FSM**:
 
